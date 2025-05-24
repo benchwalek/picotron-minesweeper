@@ -1,0 +1,716 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTE4IDIwOjAyOjQ1Iixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCIscmV2aXNpb249MTM4OF1dbHo0ACkEAAC_OAAA-w57WzBdPXtibXA9cHh1
+AEMgEBAE8CR-J2CeUC4wLgQAAvMEnmB_8CQsZmxhZ3M9MCxwYW5feAgAy3k9MCx6b29tPTR9LFMA
+sigfMMAusD6gTsAuAgBPoG6AbkcAHzIkfzuaAP8BwC6gPpBOgE6QPrCeUJ7wI0kAHVAjjyhgnogA
+z4BekF7QLsAuUI5gjpAAH8ElLyEALoAuAC5wLhAEAFNgnlCesOMAD98AIFCPOGCOYD0AMH5wjkMA
+L2CObQEhMyR-MUcAP45gnrgBK0EjnzZQKAEXsAQAL-AmkgAfFiCKAF9gfnB_YJYAKjkkfynZAAEs
+AQ9LACMwJx8olwL-ALA_0B7gDyDgDcA9kH1wfUgAG-MaEREEUE8gkB5KHmAOig5ADqoOIA4aDgoO
+Kg4KDhoOEA4qDkoOKg4ADioUADEqHuoCAFNKTkoOAB4A-wgQDhoOag4aDiAOqg5ADooOYB5KHpBO
+UIcACx85hwAOEMp-ADAeKh5-AFM6HioeOnsAVyoOag4qfQA-Ok46ewBB-xMajhoOAA4aTgpOGh4K
+Dgo_Cj4KDgouGg81HioeDRou6h7qhABLkBoPNQ4NKg0ODYcBQBouKi6PACIqDRQAAocBoFouWh5K
+DQ4KDg2NAVA6DioOOowAARIAAJAAPzouOpIAKPES8BoPIPAADrAOAE4ADoBugB4fJ05wHh1OUM5Q
+jnCOgG6AGQB-sA7wAA7wGlwAGf0HDRcE4I8oIA4AbgAOEB4ATgAeEC5ALgQA8QIeYB4QDhAPOAAN
+AA0QDjANAAIAQjAOEA0SAAEhAA85AAIBUwABXwA-II7gmgAcYPAADzgADgIAMTAOEAgAQRAPKCAL
+ACAQHQYAbkAtIA5QLQoANGAdEDEAIQ0wCAAHQwASDSAADz4ABwRgAAxCAC-wAFoBIHAPOABvKAAO
+CAAACgGeDQANQC4gDVAuCgAQYB4AASgBAY8BgA0QHmANIC5AYAEuLlAKAABaARINKgAOWgEPmgBG
+AggAAhIADzAABgNQAA-0AS0kDyiCASMQHZQBPS1ALQQA0R1gHRANAG0ADSCNIA4IAA-gAVkAgQEj
+DziOAQ_uAQgVYKwBD0QBIA_YAFMDBQQPygNBD3ACHysQDWwEBRIADzoBDREQ2AAOQgAv8AAZBUUC
+FAEPQAFND4sAGS8POKgDWARJAxMOWwMgDiBpA28OAA4gDmAMAAkBDgICtAMPKwANAwwAFxBnAAAK
+AA_6AyMDUAfyG5AfKDAPIDAfKEAeAE8gAB5gHk0ecA0eDycdHg1wHR4NHh1QTS5NUC0uLQ4A-weA
+Hi0egB5NHmAeIA0gHkAeMA0wHvAUeQAZACkKH-AxAP----------------------------------
+----------------------_nUG09OX19
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDA4OjU5OjMxIixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTE4IDIwOjAyOjQ1Iixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCIscmV2aXNpb249MTI0MF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
+MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDA4OjU5OjMxIixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTE4IDIwOjAyOjQ1Iixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCIscmV2aXNpb249MTIzOF1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
+EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
+--_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDA4OjU5OjMxIixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCJdXQ==
+:: label.png
+b64$iVBORw0KGgoAAAANSUhEUgAAAeAAAAEOCAIAAADe_FMwAAAw10lEQVR4Ae2dP_jjWJbvr8Qv
+M81LmuIxoxeYDmbggZKOikFmMycLFbyCCjzYLI4KHExUmJ0OexZTUQeGwgYz1o8WD4MTwybOFouh
+ok4UTQeNE_9iiklM41gbnK7Td6-_WH-ula6k8_Vy_Eo_tu_-8zmpEd6ujEQikUj6yaQtIJFIJD31
+JDx-_5d-F9588_d-pm0ikUiKBMwBzvA_JVnIz46pjPk5MPhv-xH--l--6eFMvvnzP0PMAeikH6Jr
+RCKRlNIZzLd-_XeJzOFRm_s3_eQor8srC51jAC1MC36FrhGJRCLJbRhZ_ocIaPwCZBOdSSSS-qTL
+qFgIVi9hGilrEQENX4YvaLIYEolEigIq9jEL07OT7fEv-_s-KV1sDKBhTsIW0LUgkUitV0bW-6p-
+_w_l4BYBnb0dkUgkUkkBcL79y79-8_d-Rj6Cz8hQpbxKn0k8jpOQXWjORni70i0hkUgkDWXSFpBI
+JJKmssZ7a7xnngtGimeeC4N8iue3i2IjYvsGXksasaP_iycXzXTqjbwEFPMwWlHJ1OgpZjz0GqK6
+s6ejpdjWyJuWeRpJo57LprRF06HqfvwUS5O6TV4FBFrmq75jFayqZZdYkSfeNTG2cvB3kkbsqO6a
+VdZ86FD1OniKMmJl5VOLp-iwPSv-o4rPng6VYlsLlW_x7fA0sgy1F6yWFk2HWueRU1QT2wdorNwq
+4dBEr-Be1buqdl-ukoVB1GtibOXAm0kjfci-VDo0HxoVHTbFqhhde1lJ9xQzRsk-qMk9oKOl2NZC
+bZ_nkWXIuUhatWs61PTDZqSuSVdA6wMNnX15QBvWeM8Yuwzv1rEHV6J2fxneGWPWsQeG-C9_NAn3
+fyNkdUrG6z9AheomvJ_kLIIqLhBNpCFPxnq9dezxhBJuQ0c90bmTCvd-uzy-1vBmQrVSzB4Ldmjo
+z4BFPAN9fLG208L4-LqhgP7Pf-mv3-71N4LnX5IelOjrP1jjPU9GrTwpuwoUvsE8V08083Smo2Wj
+SRTQ756DaOL7sa0boBljv-3rb9DQYUaFRxk9Ps0BjSjRFiAa_hyAtsb7RqxK8wuq3McBuhH6z3-5
+L6AzH5HU4HlwCxznE_Dr-M8m5Wf58ehkaqQzcpn3PKD1P2i8saQsyghoE7YVua6tF15G70QXfLSw
+o0P-qynQ8Ld--Q2CEqAZfUwCaFI_j_aUT-FNI0pa81tqHXswsFQppkTYsYeHbkBz5rMb4bM0n1bF
+59fh-m_N4EgsQwWfZBCdyHF4I_Twkc_PPqb8OD_xevXuOXg-tqP_lxJ9-QdrvEcawpXQ35OyK6Xw
+TdhQpF5TPF6F7sTYwo6Opl-W3-71NzD4R56tWfL5lsCDWPhUE70f23h8Ap2bzh0Y5NN9SlczrPEe
+kQevmuWld35N-WgS7v-WxCrl_QgeaQsePuUN-yl64Rf4N3xO7I-zk0n5VE8Zr-8ARdo4pXCHlNLV
+kGzWsWfCJgL1muiFl9Gb0SbfRPEQBP-bv-4GBv8pb-hP0Qu-wL-hc6JfESYT-esm8q4RHgqTYq4o
+1LsBzRlojfvbXM83n1bF59fh-m_NJjWpmIzXf7DGe556jfak7LKOPcY81xrvYbTDM89t4SB1uVC5
+W91c3ybIVOYNa7xnjF2Gd_vYg9vQDi_989fsR5PwdiVUdVDG--rfUKTtEF5sUhaZsF9AtzZ54WX0
+cjTRk7omPzi35vZieUJhUswSDWjOl_EdudYyD0uFlw2Oz6-D25WA1TU6b5YLd3ewxnskHVyJdnjS
+QxnMc9uKZgHTzdZogoD2gzNd3C5os1wwxtoN6C7Ap4w3rPG_Uytv6oUmQHcY0Mxz8Rq3TzyvSYJM
+2B04-i742GvRFE-qprBh42Vo4u1NudVQmxSj0bDGe9gv5FdHPN77ZsTn1_HtCpP3gzMxqwvaLBeM
+MXd3YJ4bvRU8uFvmSSgTT5rHVhc8XoimRFJnFduzW7xYrFDyhjXeAwLwyLvppXR_hX40CW9XeOMH
+Z2JWF7RZLhhj7u7APDeW0W0lNV5_EmOea433MDrutR6MhbcrjJP-URiTN69oNHdED5Q-VsYY3tXY
+2O7y7Hg0rPEeWha24o57xph17MFLjeLz6-B2hUn6wVlospvlQtf_T3qg6Wzu2P3omeKxursD89yH
+NwRvL17gdviOy4CzJzRHMa2XRpOHgJ7O5nShGyfH7seeKQ9oa7zP2MvbB2isym6CyLDGe8Jxitfl
+shKgOwxo5rlZ6IyxfbuE5dA1mbByOFTyUR97RerypG4qF53xwuhwYyXefKjHrkXDGu9hL5BH5KMe
+H2uLz6-D2xVm4gdnoYA3ywVjbDqbE8saJ8fux54pHqu7OzDPLXZzEO486NvhO6InOEsgEfkkz1_O
+euJz7qOF8q5eufqE3Elm_etGbIugMt29ldjCBcJji71hjfftXqEiX7jzF-SjSXi7whs-OMdCR0DA
+Zrlwd4fqiye8XaMzTMHldr0q-6d_cN4sFxkBrdW2OHY-9kzxWN3dgXluGUbj1W2T2tp7BJmwTjhC
+8tl97EVR7Yvp09dfJQ11aVUK6KxoWxhj37z4IjZWti0l6SxcoSpvrDpvHXtQie2OhjXew5qRO_Sz
+e3xUHp9fh7cr8kgoYMDTdDYXXrq7w6evv3rxw0_xmID3L374CfiSJe2bF198__nn9LTwdo3OMEmb
+5WK7XsUuKruQzsIOJCVn3xZYLxo_4qaV3BbH7ictH9bl7g7Mc6XcIp50PLib7lssE9sR35rIZ-T8
+RVEdCws5EgVH3jTAU5Zf01-Z14tGoHNl2yKr07eVYtaxh4N-bIE3rPEeEADP5Ev6XJ0-hx9NwtsV
+3vjBWbigm_WCMTadzYWX7u6AgBDwIbzPmCZAKjYtvF2jM0zSZrnYrlexiwINnJf848n-GPsjYIQd
+SPrH7NuSZb0lt8Wx_0nLh3W5uwPzXFmMxthKUrevCZmwJDgw8uV97F2R5WtXLIYUaeC8HDgvw3-8
+jh-wUrf1qt4W6XTGS6XiltbooQbbFA3muXgJhHWSL_zxUVp8fh3ervDLfnAWCnizXDDGprO58NLd
+HT59-RU8vvjhJ-5T4X3GNMBQFEZ8Wni7RmeYpM1ysV2voosCNCd9y-jyx5P-UVh_dAeS-jH7tmRZ
+b8ltcex_7JniutzdgXmuCkYjqXlkt8m3QCb-gKdFvqTnL4qsqINiMSRd6XRmjIX-_N3AeanPelVv
+izo6w6VtpWBp1rEHo6H_iT8hRAx_TL6kR3bn6vxJvnYBhpTC6CGdkdHGly9P-kcd1qt6W9TROZbU
+rfFC7TTRm-DAR0QM_fKex3T50yqsFz-89PBNlrQkDMX_WnkZX-5ofPlj0mMF25Jxvaq3pQI6C9es
+6VxDD5XY3MiY58KwxnvewyAv0eMmF4mMhbcrjJP-URiTN68mb15FXzLGPn39FdzUb158IUT_04xp
+_CYlLXaGSWPy5hW-KMZY_I-f4YCfTXqEN7j86A4k-aPc9eKbT19-FR0PtyXpTHFdUKRl70_emMSE
+RvuGDjOpaUMLAoqTl_I-t8Rf3ueNxfTih5_AIN9__lmI_Gn2tG8--ZwlTZZ4Lkcfy0juer-99DPC
+WtCnr78qvy3WsQf3p5qIl7ZNwnXxRn9vWON9yqoErJCX5ZHdCN8HfjQJb1d44wdn4Zg2ywVjbDqb
+Cy-d3QEBEaUMj4_MafgmJS28XaMzTNJmudiuV7iogfMyF4KNL388_R9h_dEdSPrH7NuSZb34aSyj
+X-zwU-q2OHY-9kzxWN3dgXluxYzmL23LhJXVCJkw3aTIL0kgC-kyHjpkdJPTfTEBOIApfBSAkiUN
+8JTl1-SXxPVC2osffooOKdtSC52RA3lvqeYeSg8qUf-ImOfCsMb7JA_DvCKPG54WGQtvVxgn-6Mw
+Jm9eTd68ir4EjsCI4ol-nzENaAUxKS12hklj8uYVvyjGWPiP38HgPT_EHFx_dAeS-lHuektuS9KZ
+4rqgSLPeEzUxnQ_N9poPM0sDhxYERCcv3X9ulb_8T4o66NtPP3-z4otvP-2s6PdP-kfjyx-Bh--4
+HXqU8eWPwGXwwPTa16t6W6xjD_5JBTF69-B_tlXWsQdDQ--E7366h6Mir87z7EYo8752AYaUwohX
+lNFIZ63Wq3pbqqRz9O7xORlZ0SzP15du3oztmbGR-7JAE-KyPCA76bRqVwV0PvkfeSiH--gdP-C9
+8eWPJ-_jJutVvS2V0TmJFLE00JlruTxUn56RMc_FYY33GT1GGOQV_f_x4YyFtyuMk-9RGJM3ryZv
+XkVfMsY_ff0VDKHmhfcZ07558QXGpLTYGSaNyZtXsYuKolnAdHT50R1I_ke56y25LUlniuuCIhXv
+gx4xFzf09xoOs0A-h5aLLYi8Iv_5hf6Ptl9ML374CWEB48UPPxVI_-bTz9_8_OLbTz8LVIr9tTI6
+_R_NL380vvxReA8vgeDlJWu9mJZlkwvIOvbgPiiKeMdyRbyfrRGsyDr2eFOvN6zxvuSqBJSQl_4v
+wzsbTcLbFV76wVk4gs1ywRibzubCS3d3AEx8_vqrJDwBRDKm8bRCKuFLSAtv1_gMk7RZLrbrVeyi
+QAPnpQDu2B8BI_xA0j9m35Ys68VP038taVscu5_0fFiXuzswz1VKZzQFPHKtTeJXV6-Mwv0TIxwP
+eXW_jJIwxPMle1oSrb558QX8iPQLevI-8kPWz8pdbxKdhV8rLKV0FniU18NjmV-Q0FvHHgyswboi
+Y54LwxrvC3iMMMgr8oyx8HaFITDr5H_cvHk1efMq_rKWnh87w6QxefMK8mEJJUfGf9RqW5LOFPcE
+ilQoNz1jMYbo72scTyWvHd_EseeQl_7Zc_6jmc7m2-WqFhjlkh_cN8tFZX-XlG3hZR17cB8kRixe
+ubGtgkrEwqzMG9Z4L3EZFc__O-7y-Dq8XZFowrYD4KazeePuvVw0N3EHHLsfe6a4Oe7uwDxXOp3R
+qPB4gdukWjqQKbd--kIT8gp8KzWdzSWOtu6SdDoLl0q6vwzvPBYq_McKPNZjldFgniu9i_LayMvy
+l_fX4e0KL-3gLBTwZrkA2LWVUC2WY-djzxSP1d0dmOfKZXSVUS5btPIVyFTxo3gq5CV6UmclkZXV
+x7aeCNQmGHXesMZ7RWuAa0Feir88vw5vV3jpB2dhqzfLxXQ2d_w_sayhip4pHCtjzN0dmOdKoTOa
+6n0rT62CDmSq65y-kIW8JJ8ionO7JYXOwkWq2MOo698VeevYgwpVFw3muRV0Trgo5Av7y-Pr8HaF
+l35wJmZ1QZvlgjHm7g7Mc8szWpPIk04Rc2rximSqvmTYasiX9KTOqhgN8eZoFdt6ma1jDwf-WNIb
+1nhfweyxeZIv5i-Pr8PbFV76wZmY1QVtlgvGmLs7MM8tQGce7hp6vORtkvT2Y1bTOX_hDPkSntRZ
+FaazcHm08pfhnUeE5rPN6LFmZUWzmgUQXst7UmeVi85yAaE68rhoTcQ2WT6aFd8zQm1hT_qsstO5
+oVBr8cFBhFHAG9Z4X-GkscmTz_4vz6-D2xVe_sFZ2NLNckEUa66ms3nsezhWd3dgnpuRzjzQm_jx
+5rdGJTuQWVe3BP8Lfchn8KS20tmx__k5uegcW2hN8c2deZK3jj2o4mLRrGsBhN28ntRNOsM1eMjo
+wgjQLcJ6eV53ORrMc-kuXaXnz4N8umejSXi7wqMfnIUC3iwXBDsV2q5X2ZP94JyFtrH50TPFY3V3
+B2u8T6Fzu4_gei4p9ULTfegNa7yvcfcJwRn95fl1RkBPZ-Ps_79ZLig-RdmB6wfnzXKRHehCfjqg
+mefG0vmX5t1GkMVCrTXK3laNpLOvPhKOUzwbTQjQdQE6lp6xRwDAzZv-ENDWeB9bNe0jV4paVtoZ
+oyngvC6Pj7AM8lFPUqeBYw8cW9vpJRUw3o0uRKiF1kRssenR1OoKEo5TPEkdnTWfYZTO7QPWw9jW
+QsAmBEPwZtIH1Xt_uoTjqCd1k85wDZDL0drumteEVxK5B4cLA44bvalntyQcRz2pm3TGAkZY8_Du
+oEd4tWl1SGohmhpOmnAc60nSdfKDkx-oP8-L8J5UwJ2NiOl2R1PP60iYjnpSl9UFGOWNrZR17OFg
+jJn8g4ae0Iye1FnxF4B81OvJrsKeb8kG81zr2LsM79pGnG6XPRtNwtsVHv3gLBTwZrlAP53Ns1f_
+Zrmg-IFjgzn5gfCRY-djNzz2lxlj2-WqQH7SVyDH3R2Y51KXytXJ2lH_l_HdRFTz2NbKwyNMvcue
+JF0Dx0Y6Rx81RA-F9MgDpAXROvYMbM4AbJ19y9pjLs9Gk-B2hUc-OAvVu1ku0E9n8_xlv1kuupwf
+i_OTH6B37H7shsf_MmNsu14VyE-6CuS4uwMWKSlvV9OcaQ_9aR17MOBZZ4_9pZueJF0nP4gOPUFD
+Pq9vBNMeeoN5LjC7ERG2voOejSbh7QqPfnAWCnizXKCfzubZK3_zXFB_ihy77wdnfnvTtV2v8uYn
+nSkeq7s7MM_lblq4sTW6-M1f6v_zNPfwiPveKU_qXrloWyA-L2so5opIDzBNjAY2Z349_vvmtsRi
+no0m4e2KFBCqVxEUSNv1KhedHbtfLD96pnis7u6ARUoq0_EaxDf0T9hweNMIDwjriL9kvojT2Tz7
+rd0sF5QvRX5w3iwXTmag58pvKFy08o3jG8hgngvLaFyEBXTEs9EkvF2xtqPcIUCryHfsfuyGx-4y
+Y2y7XhXIT-oK5Li7A-NcFU2lm2pW_ZvC7PmGo7mHR1hGFzxJnQaOPXBs-bFCsXzkYaJ-NKzxXmAf
+rATf6O_b1RKLeTaahLcrPPrBWajezXKBfjqbZy-7zXJB_Yjmkx8IHzl2P3bDY3_ZMbZdrwrkJ30F
+ctzdgXkuNVF1nU9nvpmX4R2escnwphEeG0y7PUmFkM6aQ4S8Cq8-3wzmuQILLsN7oyNsfcs8G03C
+2xUe-eAsFPBmuUA-nc2zV-5muehyvkDnkx8I_Y7dj93w2F9mjG3XqwL5SV_BHHd3YJ5LrVRp-9O2
+-M1fERAR-7IRXug0LfMk6Tr5QRTK2kKEoqLIY0S3aFjjfSwUhPbSFK9nGyzv2WgS3q7w6AdnoXo3
+ywX66Wyevew3ywXlDxwbeS185Nj92A2P-WXG2Ha9KpCf9BXIcXcH5rnUTavpgroxzbwM70hn3kPk
+TSN8bLNphyd1GRzkK-D4Rh_mGcxzH3LhMrwDvhsX_fk32rPRJLxd4dEPzsKV2iwX6KezefbK3ywX
+lD9wbDAnPxA_cux_7IbH-jJjbLteFchP_grkuLsD81zqUrV0xNrL3-wVAZ8leHhMSdDWp3SdJnqS
+dA0cG_kcfdQQGRSriVH01RUNa7zPAgjBNMXjKvRpicU8G03C2xUe-eAsVO9muUA-nc2zl-1muehy
+fiyOT36A3rH7sRse_8uMse16VSA-6SuQ4_4OzHOpm9bbHevimImNAj5I8nyHgdEIj_vM0oQ09yTp
+OvlBdOgJCPI1_ho5ZjDPzcWIy-AOyG5c5OffOM9Gk-B2hUc-OAsFvFku0E9n8_yVv1kuKD9Fjt33
+gzO-venarld585POFI-V3R2Y51I31apTVlb_5q8I_KwUD48Zk7XyGTuQzp5UvXLRtkB_XjRQrDfy
+AKwmGtZ4nxcWgmmcr74NlvdsNAlvV6SAUL2KoEDarle56OzY-WL50TPFY3V3B_a5dBYaqgJePRX7
+Mt9V_A7fFA-4a5C-ZL4009k8_w3bLBeUL0V_cN4sF05moOfKrwAE5HN5RIpqXhnMc5EFPL8eesRH
+EyM--0Z4NpqEtyvWdpQ7BGgV_Y7dj93w2F9mjG3XqwL5SV_BHHd3YJ6roqmQSgqpqK78zV8R8FkZ
+PTwW_KIOPm830sGX0cCxB46tLl_1VMz--eVt7NCZBRS1igIGVUTDGu-LgEMwjfPqWp9cz0aT8HaF
+Rz84C9W7WS7QT2fzKK3AnPwg_sXy_SmSkq9i-ukgfmd9AOPY-dgNj505Y2y7XhXIT-oK5Li7A-Nc
+PdsGie_gKhhlYhPgG0J2z-cTGM3yZZpTxb6YkFaK8lVL9fzfWR9w6Fz85DX3ihhlMM_Vwo7L8A7I
+blzk56_tZ6NJeLvCox_chQLeLBfop7N5Eq1OfhD9Ypn8hyqZX-H831-eIrXBOHY-dsNjZ84Y265X
+BfKTvgI57u7APFfb5kFK6qZSyt-8FQGfVcDDY8kfqcuX6UxV_gI6_UEUUhLzVauy_b_-vI3SWcOy
+p6h-5CFTPhrWeC8LIoJpnJfb_uR6NpqEtys8_sFZqN7NcoF_OpsLnw4cG-kV-WL5-BRJyVc6f_Ry
+LJ0dux_74bEzZ4xt16sC_UlfgRx3d2Ceq2HPIGXsrGW4ZF6Gdx6sZTzfSWA0y8tqVIo8Sa7eX97y
+dH5nfRDorFWRk2_iL88lg3muIqZchvfGRdhWDT0bTcLbFR794CwU8Ga5QD_dzYVPB44N5uQH0S_W
+z0_RlHwV8xfQnDQfx_7HbnjszBlj2-WqQH7SVyDH3R2Y51JDbaiQisXK3-wVAZ8lxUv-wWq89C4l
+0RfQwLGRVtHH8vmqVc3831-eCkPbOqfYuCggMW80rPFeHVz4_TXLF2t36jwbTcLbFR794CxU72a5
+QD_dzXlCRUv95Af8F8vkP1TJfHXzT6fwO_sDGMfux2547MwZY9v1qkB_0lcgx90dmOdq2DNIBbps
+XhaZl_EdqSrdwyOMZnl1TauwL6CTH0SHxHzVUjf-d9aHlKFhYZNvgS-AIoN5bgV8uQzvjY6wuTV6
+NpqEtys8_sFZKODNcoF_Optnr-zNckH5KXLsvh_c_e1N13a9ypufdKZ4rO7uwDxXt55BktJxH5a-
+_SsCPku6V-rjqn0F3SujJ1WvXLQtkJ_3pCm2I-KQSY_GNd5XAxrr2OOp1yCfvd2p82w0CW9XpIBQ
+vQiF7XqlA00qU971OnZfz-zomeKxursD81xqli1WCn-My-COJFXq4RFGs3w1Deyhlyuk83Q2zz40
+zFfUjbTK5y8A_Zb5dP4YzHMrZs1leG90hG2t2LPRJLxdsbaFAsZS365XsQlR4VdyYW6zXGiV79j9
+XOvNuz-V5Cd9BXLc3YF5rvQOTdJKSXgxf0XAZyn1lf2RIl9lJxN8Yf3_T3-8-Z-__DDt-eVt7NDh
+_g4ce_DYctfbuAKm2OLIs4WPhjXeVw8daBd862iQ51chtDt1no0m4e0Kj35wFqp3s1yA2a5XfALP
+qb9-933sV6azOdA5hQ7vrA-4LcjPKCn5iOaTHwgfOXY-13qF-UmfSWX5SV_BHHd3YJ7bsn5Diu3B
+UTaal_EduVOZh0cYjfM4-4obW17xtMqud9YHHDrcWqSzovU2pXTJd8TzeGSMGcxzq2cNj_xGR9jN
+CjwbTcLbFR794Cwc52a5ALNdr-gEnll--_772K9MZ-MkLry-vEVq47dS8qMqmS-Q_eQHQr5j93Ot
+V9if9JlUlp-0FchxdwfmuW3tPZ1VRraYvyLgsyrztfypRF9xVyugv3-3vcCpjHp-eRulc-U6_UEU
+yirW24h6ptiOmLGcL8P7ZXg3rPG_YtAIHjoG31Wa6HHTFXk2moS3Kzz6wVk4y81yAWa7XsUmDJyX
+J-9j7Fems7mAZv5RoPNmuRDy0yUlf_DYyGvhI8fu51pv0v7EzqSy-KSvQI67OzDPbWXX6ZqQFQ8j
+5pvAafxy9R67Ct9hGucraGaq9f7ylqfzO_uDQGdSjYVNvtE_VwkjWBhjBvPcavjy0GfsLdpG2FBF
+no0m4e0Kj35wFk50s1yA2a5XQsLAeYn_5H_MfmU6mwOdeTQnXZ3NcgH5GSUlf_DYn_cfCB85dj-X
+eqP7kzKTyvKTvgI57u7APJe6VHOba16G8OVv-ooA7rNafO0TKOlVd7K8GjgveVrFvonV_8tbYdR1
+uQeOjXSOPspab1PqnGKDYt6yBUYjRhAphjXeKwJKAQ_z5GfcIM_vQmiD5T0bTcLbFR794Cyc7ma5
+ALNdrzAhiU0n-yP-lelsDlBOuT3vrA-4R5CfUSXzY3F88gP0jt3PtV5_fx7OpLL8pK9Ajrs7MM9t
+R5vpiIAJeWMsW0xkNiK8Rg_PMBrn_bapooHl1cn-GDuSEJwy6rroJz_IDinrbVzBk2_Ez1Wqwtd5
+hqA3mOeqY0phX6D-aBVhcyV6NpqEtys8_sFZOOnNcgFmu175wRkfs2g6m2dP3iwXWuU7dj-XevPu
+TwX5SWeKx_ruDsxzW9Bm2q1ilHhY-uavCPgsHbxWkyngVXSvLMpL56Yr73p1y89V-xQ1jLnKk2cF
+EgNxEesNa7yXCBGJHvoM35008ekdj-cPEzL_CGOMjSbh7YoUEI4cobBdr3SgibbKuz_O3a8mP3qm
+eKzu7sA8t1PHpL_ABsViLuY86QnBaGvSzWdJ4zFdxvN7IktI5_lsnv1bm_Wi0fl598fJDHSl_brV
+JvkyZIe6zugN5rl5v1OxL9ypNIlwMAX8-zjY0SS8XbG2o5wCs12vYhNi0QamU4B27H6u-cm7n8Xy
+k74COe7uwDxXRRMi5WVrYQIURoEZxYFuXtuJPfTluxQfC_v3f-rj7--0x4dp7y9vY4cOtTFw7IFj
+N3f_UuhAsa5YpgCRBpfhvYA3rPG_JEQq8NCL_D5WgS-W8YSzKfYjMf1pNAlvV7B_cBY_3CwXYLbr
+FZ-Ac-nv330f_5XpbA50S7lk76wP_C3Izygp_Yjmkx8k5Wecv2P3YzcwdibR-VSUn-QVyHF3B_a5
+7WgzTeyLyJ_8UQqLTGQ2fKCnxz7G9zTVnj_kXF5KQ0r65ezi6Zxd76wPOHSoEKRzQ_cvCxPka-TF
+jgx-oYw3mOcW5kj1vnA3qyAimsv4xAMfTcLbFawfnIUPN8sFmO16xSfwjP77d9-HfmU6myf95-vL
+W6QefislP6qS_QKdT36Q6-ej83fsfuwGxs4kup_K8pO_Ajnu7sA8tzXNphHtsDAHeLJLwYIZRYPO
+Xs_Jye1GSbGA-v7d9wKXM_r95W2UbtXr5AdRKDdo-nKpQVFpLFNoPFIvwzuSobw3rPFeIlwq8Nip
+sNcV9rK6nKwfSTv-0SS8XcH6wVn4cLNcgNmuV7EJA_flyf8Y_5XpbC6gjX8U6LZZLoT8dEnJHzg2
+8vphfvr8Hbsfuz_xM0nZT7n5SV_BHHd3YJ7bgh6jef9DtuSNUliU5E1kNnygv4dHGCW90DMLeLmN
+5_E-KtX7y1uebu_sDwLdNFfT55_OD-IV_GJHw8NEujeY50rhS-W_cMeTGGETS-pMF2E0CW9XsH5w
+Fj7cLBdgtuuVkDBwXqI-_R_jX5nO5kA3Hm1Js9gsF5CfUVLyB479ef5BUn7G_Tt2P3YDY2cSu58q
+8pO_Ajnu7sA8tx2dRp_GJ6v2y5d-ujejmGiKr3cCUjoNHkOWmFcD5yVP59g3sXp-eSuMugpp4NhI
+5_ij-vOXyxSK5WOxUorlOwzEgiJvWON9edDU6IVdi-USO5vEthnbbBI1moS3K1g-OAsfbpYLMNv1
+ChOSWHzyP-Jfmc7mALWUP39nfcA-gvyMKpkfi_OTH0TzM87fsfuxGxg7E2E-1eUnfQVy3N2BeW4L
+ekztHQ7rrnx8yBxZ3kRmY1tolucbI5iox8zyXlaD4V-m_vfsOvkfY0cSwlJGXUV18oPoaND8JcKF
+fGFfuIJSjoMHi1JvMM8tyRodvMTeGBsRzbJ87ksxmoS3K1g-OAsfbpYLMNv1yg-O_JhF09k8e-Jm
+uWh0vmP3c_1P3v0skJ90pnis7u7APLfpPaauxiaRAIpQkO7NKDKa6NX9uPSOglufN2ZRXjp3TXn3
+R3V_LtZQzF4p2UsmXVC8SAOo3yq9YY33cgFUl1fU5eT_YGxTyaTRJLxdkQLChwTljNquV7lo69j9
+avKjZ4rH6u4OzHPp7LJ3Mqy18pH-zVr8kw6TKOmtYy_2c5b0-C9L8dhRCq83i6azefbkzXLRqfxc
+9NwsF05moCvNb25tVsyBXJWSZduhfmv0BvNcHeZRzCP_VET_96X4UpdlNAlvV6ztKKcI0Fnk2P3Y
+DYz9ZcbYdr2qID-pK5Dj7g7Mc1U0odZIbtUrKv9i3ozioxH_MrzzXu6PS_8ouN1lYhkNHHvg2Ory
+dVPT5x-LIIrRiihfGryS8FKjN6zxXi6MlHp_K6V3LUU-zveA4hpNwtsVrB_chQ83ywX66WwepRWY
+kx9Ev1g_P0W15KfM37H7sRsY_8uMse16VUF_0lcgx90dmOe2qdnI6lhYX_Uj-5taeROZDR9o66PH
+I92raCrR_ZecYV4hrRTl66amzz8JRuTRl6yI2O3F39TNm-iMKNHN8_hUERWhmf-96B8V80TnDtJZ
+4v1prpcOZfhlHi96elPzE1L64ypwjB63WFYsoJMfnPxAXb5uavr8UyT3LjUoKkUz1Cm_1NCb-Pr1
+8XAwqo9fEZqFTiArkrosuXepEdE69hTdfP6XNfcmMhs_qN1Ht1KFV4dm4cflzpzUTSmqgkZ4dduI
+jzp7E58RK3V5mFA1-VkRmtHzRqIndVMq7pKeXjWaL8N7s7xZ_6kIXFPtlaIZl6MiFtDAsQeOnfRY
+Pl83NX3_DxHT1qgOzViYSIBmeZPfl4q9UpwJEYY6NAudQEUkdVnq7lXtUR2ahQ6HddQgbyKz4YPK
+fMX9QCmacU8rWEUunfwgOiTm66amzz8FLq336rYO-6WJ-kkds9JZBp1TdUQ045oVeb4HqPOk8vKD
+82a50Cc-i1Tfq_o9ckARlKPl31BvVnYqAstU_8q6Di5NdSR1k878fW50rOYyIwGgNpvuDWu8Vw2y
+WjpPNX-E9wa1Gk3C2xUpIHyoCArt03a9ykVbx_5Xkx89UzxWd3dgntvobUcIKI38f7XGm8hs_ECi
+j_2ZFXilzUZoPBWvLoums3n20cH87PTM1faU5ldcQRJ93ttbpgfgf7XJPynlVy0Rp6HOY4vD9Vbj
+SVLkB_eHOTw9Vec-VF33TfO7iiWP-94_b0o-IR7TFV8LRZ1G8Px-VRm7rIFjDxw7Pef95W3saMcO
+VH-fCsdqritW-WV4b7E3o9Ap4OFUkM7VX4hq0AxbBm_qj12m88OcFBC3g9F13bpcESBQzVbw-9Vi
+byJx4IO8XsB0edYX8NWgmf_7GldKdE7XO_sDjtZsQl33Lbuv7JZaxx4PnNZ7E5_RRxl97b29SjTz
+bS12AtV4ovNDLrdyH3S4e7XfSWTOZXjvjjcLnMpleOd9XdeiMjQLV6Su2EGd-ODkBwW__P7y9v3l
+LbK7BVtR792LvY2VXUvr2APmJCGoxd6MAijFW8eeJpejMjTzN6PeSMqL5tbQufa7J8TK0MyvHUnd
+KW8ifbBNxfqkzlmxrwDHgq9rpbGelAvNraGzDncPfGW3UfhrHj6d8iY_I5uiRNanh1eJZr6VCbyu
+y5NS6NxKNOtw9yqDcnTV_Ned9WbKCWmFp4rRLHRyHWIHNXDsgWMnPabAWhgt2Ipabl31Fw8KkEdQ
+x70ZCyM8m9ojzqRKNMPW8HdFh0jqsiq_b9axV_Ot4-_9495EEkW7ZZTd1fvq0azbDkTPpTs6_UF0
+xGa_sz6kjKbvQ0fum3Xs4b_TB--EMxs7Z_0R0YxzrczzjNbNk8rLD86b5UKf-Cyq5o4Jl78yKEdL
+njzC0NQTQ3hjKvZ4aTSMpG7SWfWdrPGCYdVfhnfyvMcDMqzxXqvuUeMEtEbLaBLerkgB4UNFUNBf
+2-UqFz0du69nfvRM8Vjd3YF5rqINtI49qIKKI--v5HkvyBT6Z42ebx3Vex124KHPoulsnn20ID87
+DXO1Ma3ydbhXcrsC-jt53kfHUy39MzYiLqv3PKN19qQk2D3M4WmoW-5Dyb1LwoWvTFBu5KM_5ThM
+HdCDuKzF83PQOVapgWMPHFtu-vvL29ghK7-dKnl-6rpIApIuwztWPXnhgGLHE-Ab86r0wvnhEVbp
+hW6hb3yulM7S89NB-M76UDK-9Sp8c-iiq2vaMAfsNOT5zUmXKbCySs_fXy2_llWX3LEm0pnXO_sD
+DhX5rVSxO1MXlPlp4BzI8z77eOJ7bDUR0YzzrsUntTKdfXPpnBevXcZxVLrdk_wdJVryHfd5j8ms
+HjHwyE_3es9fo6bECnTyg5MfqMtHvb_8fX95m53FefPbp4z3pLKrkjLPy-AOA_udPL8-ucYTbCge
+sFLPXzV4WYsXWkUz4nNLQIOczUjbvPlt1cMbEi20GueJhU8evUDqjDKRmDw9pXuYHI-IurzqlSr1
+TUczT9t31od02ubNb7HS74ZWN8Q69nA_5PGACo8nvveqi4jIGr3A6Cb6RtOZR630-HZL8-uAZY4z
+JC-rmEzVWOGnW6PHjWturEADxx44dtJj_XyErzDk5rdSwk2o7Eo8bBtY6ZfhnTx-XlLGkwAvWZ4-
+Rfinen3j43MHoUSKoSEUmladA_dDnu9YUmQKPJXlcaI8Iuvy0ldXl1etkx9Eh5T8d9aHlFE_v92C
+O1DlTcgyJZwPeTwg6eMJe7KUiGjGSdfrBUY33ZOi8oPzZrlobn6z_kS0zDvuVZenKRcf8MhPvUaP
+m9iOSCI61yis9MvwTp5vWkqHYY33sjqJbi2uVfUxmoS3K1JA_LAyKGzXq1y0cuw_5WfJj54pHqu7
+O2CR1hKRROQFX4FM_Eu_IeT1MF3EtCa_zIq09Vk0nc2zjwL52emTq21Qvp6yjj28geThEX0F46l8
+j0UsauIFRrfJayI-OD-M4elD_en5GgpLiTzvqz8IswwyeBpq4nFD2xer1MCxB46tM0FIqtF8Gd6x
+0jvuEXfVjycBalm8cJZ4nDr41sbnSulMnOqsoNjJ8x5N9TIF5mbxOGMeizr4XKtooic6k9Rxmff4
+SL7e8XQZ3qFXPIyIZlyDPl5gdFs90ZmkDs3RMu_sr7juUmRmRwM88jTUxOPmtjtWoJMfnPyAmNUd
+XYZ3GPxjZz12LH3GkwC4WM93Wniple9EfCaYkFQJip08Gn1kInl5CgtT51Gom0_aeSs9iSSXy3i7
+yOs5ni7DO4A4NiIKNfQCo7vgSaTyUMby4Uupm17-_jKTcMATUEOPG92dWIEGjj1w7KRHUtOF1X0Z
+3rvsEXH6D8Ma7-muwp_l5q2vWxpNwtsVrB_chQ83ywX66Wye-Vc3ywWfH4vjkx_gd_x_7ARif5kx
+tl2vKP9hftJXIMfdHbBIC0dEEvlmyYSpR9ssvNTTo-iZd8Gr1skPoqNzvbB1so49vEXkmzUM5rm4
+AOi3Ovsm9kA5Gk3C2xWsH5yFDzfLBfrpbJ79VzfLRa58x_77wZn-u3Rt1yvKT89POlM8Vnd3sMZ7
+vP8ZYyPKuTLf3Lo3_TXguerpcdO7GXVQLvpQfl1CJF2Gd-LWsdfcYTDP1b8NNroHytFoEt6uSAHh
+Q4DCdDZ37H7XN6qZip4pHqu7O1jjPdTCwwhfJN_ai2HyBNTWI7LxZTd9iojOJOvYw9tCvh3DYJ6L
+C_NRqImnqvtFo0l4u4L1g3P0c6JzoxV7ppvlgjHm7g7WeA91kRTxKxqWMOGijJ5gebBODX36vexQ
+LFThpNYLbgh65FQHPd_oWiODea6eLbGV-bC4RpPwdiUWd0qb5YIx5u4O1nif0r9jSd0p32KZ2nZF
+vh_SJ5GSrgc_dtO3exjMc3HBPBZr9FSBMRpNwtsVrB_caT_6oM1ywRhzdwdrvIcawUrRpFQJEapl
+4nljZ9bBU4xGUscFBYJ4ugzv3fTWsdedYTDP1ac9dqo35tNoEt6uYP3gTPvRBW2WC8aYuztY4z2W
+hnXsddZ3UCZPxto9Ihtfkuc9qbOyjj28Cd30XRuwcIN5Lm4Ej8iKPVXgA40m4e0K1g-OtB9d0Ga5
+YIy5u4M13tdbnjX6bsIBFm4de8wa763xnnkumLo8GIqJkbHwdg1v15P-cfLmFY3uDMYY3gQYHfEd
+HNHCN5jn1tsqu9khi2g0OfkfN8sF7UR35O4OUKFYJl3w3RTsgBAZT_66fJvavlJPwOpc0dZdm9X7
+rg2s8fhY45HQoCF3PL7uusauUTjq6cbGxxrPptEVRVGr2HQ0CxXbKd-BkeOG1IVmGjSkjEajueOe
+buzjWDGa6YKSl_UbHeuqO31810bB21Lx8dCgUX60AM2dpTPd2Hyx4nNqenVRrDG2AM1CxXbKd3BI
+uDlVopkGjcKjNT2m455ubK5oWsceY_wyvDPGFPnL8H4Z3uEliDz57J5-02hZxx6upTseD7EjQ-aN
+9VxrvIehyNOgkXfgLWp6VFdW_nu6txKiajS3ptIoVky0RkehYrvmEQIdGQrvkroW2sH_SaPMaFOn
+6TKd6d5KjKZ17DHGLsM7Y0yi51_CyJPP4lsg69jDFXXHwyP61o_q7q3nWuM9DImeBo0sA29O06Pc
+8mmWp3urMKpAc2uqjmIFRGtB5E2nPBZ_R0YNt0tuO_1gL6WRd7QMzR33dG_VRtM69hhjl_GdMVbS
+8y9B5Mkn_RbIOvZwRd3x8Ii_9aPue_u51ngPo6SnQSNp4G1pQZRYMs3ydG9riLLQ3KYKpCiXZe1b
+Ttc8FntHhka3rnxr7WBfpZFltLjrdNDTva0lmtaxxxi7DO_MsQKefwki32XPx9ZIWCY_dsd3YWh4
+b40f-j8DTsMo4GnQgBHb-5sey5RG0z3d23rj--m--y_8XVmZ82tlTVIsQLG2Loq-5x3xfFtq-dAf
+0P8Nvo9YDBrI8xIAAAAQdEVYdExvZGVQTkcAMjAxMTAyMjHjWbbBAAAAAElFTkSuQmCC
+:: main.lua
+--[[pod_format="raw",created="2024-11-18 20:02:45",modified="2024-11-25 17:02:34",revision=2158]]
+-- minesweeper
+
+-- TODO custom difficulty
+-- TODO persist difficulty
+
+diff = 0
+rows, cols = 9, 9
+cell_extent = 16
+n_mines = 10
+exploded_mine_row, exploded_mine_col = 0,0
+timer_running = false
+
+function extpal()
+	for i = 0, 31 do
+		pal(i+32, i+32)
+	end
+end
+
+function stdpal()
+	for i = 0, 31 do
+		pal(i+32, i)
+	end
+end
+
+on_event("lost_focus", stdpal)
+on_event("gained_focus", extpal)
+
+					
+function for_neigh(row, col, func)
+	for dr=-1,1 do
+		for dc=-1,1 do
+			if row+dr >= 0 and row+dr < rows and col+dc >= 0 and col+dc < cols then
+				local idx = (row+dr)*cols + col + dc + 1
+				if dr != 0 or dc != 0 then
+					func(idx, row+dr, col+dc)
+				end
+			end
+		end
+	end
+end
+
+function cell()
+	return {mine = false,
+			  cover = true, 
+			  flag = false, 
+			  neigh = -1}
+end
+
+function restart()
+	timer_running = false
+--	local checkbox_on, checkbox_off = "\^:3c4299bdbd99423c", "\^:3c4281818181423c"
+	local checkbox_on, checkbox_off = "\^:1c22495d49221c00", "\^:1c22414141221c00"
+	menuitem{
+		id = "diff_easy",
+		stay_open = true,
+		label =  (diff==0 and checkbox_on or checkbox_off).." Easy (9x9, 10 mines)",
+		action = function() diff=0 restart()  end
+	}
+	menuitem{
+		id = "diff_medium",
+		stay_open = true,
+		label = (diff==1 and checkbox_on or checkbox_off).." Medium (16x10, 25 mines)",
+		action = function() diff=1 restart()  end
+	}
+	menuitem{
+		id = "diff_hard",
+		stay_open = true,
+		label = (diff==2 and checkbox_on or checkbox_off).. " Hard (24x10, 45 mines)",
+		action = function() diff=2 restart()  end
+	}
+
+	if diff == 0 then
+		rows, cols = 9, 9
+		n_mines = 10
+	elseif diff == 1 then
+		rows, cols = 10, 16
+		n_mines = 25
+	elseif diff == 2 then
+		rows, cols = 10, 24
+		n_mines = 45
+	end
+
+	width, height = cols*cell_extent+24, rows*cell_extent+68
+	-- smiley button
+	w = 26
+	bx1, bx2 = (width-w)/2, (width+w)/2-1
+	ticks = 0
+	game_state = "playing"
+	cells_uncovered = 0
+	flags_set = 0
+	grid = {}
+	
+	window{
+	  width      = width,
+	  height     = height,
+	  resizeable = false,
+	  title      = "Minesweeper"
+	}
+	
+	-- init the default state
+	indices = {}
+	for i=1,rows*cols do
+		add(grid, cell())
+		add(indices, i)
+	end
+	-- spread the mines
+	shuffle(indices)
+	for i=1,n_mines do 
+		grid[indices[i]].mine = true
+	end
+	
+	init_neighbour_n()
+end
+
+function shuffle(list)
+	local n = #list
+	for i=0,n-2 do
+		local j = flr(i + rnd() * (n-i))
+		list[i+1], list[j+1] = list[j+1], list[i+1]
+	end	
+end
+
+function init_neighbour_n()
+	for i=1,rows*cols do
+		grid[i].neigh = 0
+	end
+	function safe_increment(row, col)
+		if row >= 0 and row < rows and col >= 0 and col < cols then
+			grid[row*cols+col+1].neigh += 1
+		end
+	end
+	for i=1,rows*cols do
+		row, col = (i-1)\cols, (i-1)%cols
+		if grid[i].mine then
+			-- all neighbours
+			safe_increment(row-1, col-1)
+			safe_increment(row-1, col)
+			safe_increment(row-1, col+1)
+			safe_increment(row, col-1)
+			safe_increment(row, col+1)
+			safe_increment(row+1, col-1)
+			safe_increment(row+1, col)
+			safe_increment(row+1, col+1)
+		end
+	end
+end
+
+function embossfill(x1, y1, x2, y2, fill, tl, br, margin)
+	if fill then
+		rectfill(x1, y1, x2, y2, fill)
+	end
+	
+	for i=0,margin-1 do
+		line(x1+i, y1, x1+i, y2-i-1, tl) -- left
+		line(x1, y1+i, x2-i-1, y1+i, tl) -- top
+		
+		line(x2-i, y2, x2-i, y1+i+1, br) -- right
+		line(x2, y2-i, x1+i+1, y2-i, br) -- bottom
+	end
+end
+
+function _init()
+	p = userdata("i32", 64)
+	for i=0,63 do
+		p[i] = peek4(0x5000+i*4)
+	end
+	p[32+6] = 0xc0c0c0
+	p[32+5] = 0x818181
+	p[32+7] = 0xffffff
+	p[32+16] = 0x0000f5
+	p[32+27] = 0x4ca730
+	p[32+8] = 0xea3323
+	p[32+1] = 0x000082
+	p[32+24] = 0x7c160d
+	p[32+4] = 0x7c160d
+	p[32+17] = 0x4ca7a9
+	p[32+22] = 0x888888
+	p[32+31] = 0x000000
+	p[32+9] = 0xef8e34
+	p[32+21] = 0x808126
+	poke4(0x5000, get(p))
+
+-- send the palette to sprite editor
+	procs = fetch"/ram/system/processes.pod"
+	for proc in all(procs) do
+		if proc["name"] == "gfx" then
+			send_message(proc["id"], { event = "set_palette", palette = p })
+		end
+	end
+	
+	restart()
+end
+
+function explode()
+	game_state = "lost"
+	
+	-- uncover all unmarked mines
+	for i=1,rows*cols do
+		if not grid[i].flag and grid[i].mine then
+			grid[i].cover = false
+		end
+	end
+end
+
+mouse_b_old = 0
+smiley_pressed = false
+
+function _update()
+	mouse_x, mouse_y, mouse_b, wheel_x, wheel_y = mouse()
+	smiley_pressed = false
+	if mouse_x >= bx1 and mouse_x <= bx2 and
+	   mouse_y >= 15 and mouse_y <= 15+26-1 then
+	   if mouse_b_old == 1 and mouse_b == 0 then restart() end
+	   if mouse_b == 1 then smiley_pressed = true end
+	end
+
+	if cells_uncovered == rows*cols-n_mines then
+		game_state = "won"
+		-- mark all mines
+		for i=1,rows*cols do
+			if grid[i].mine then grid[i].flag = true end
+		end
+		flags_set = n_mines
+	end
+	
+	if game_state == "playing" then
+		local row, col = (mouse_y-grid_start_y)\cell_extent, (mouse_x-grid_start_x)\cell_extent
+		
+		if row >= 0 and row < rows and col >= 0 and col < cols then
+			idx = row*cols+col+1
+			if mouse_b == 0 and mouse_b_old == 1 and not grid[idx].flag then
+				timer_running = true
+				if grid[idx].mine then
+					if cells_uncovered != 0 then
+						exploded_mine_row, exploded_mine_col = row, col
+						explode()
+					else
+						grid[idx].mine = false
+						grid[indices[n_mines+1]].mine = true
+						init_neighbour_n()
+						uncover(row, col)
+					end
+				elseif grid[idx].cover then
+					uncover(row, col)
+				elseif grid[idx].neigh > 0 then
+					-- correct number of flags?
+					local n_flags = 0
+					local has_unf_mine = false
+						
+					for_neigh(row, col, function (idx, row, col)
+						if grid[idx].flag then
+							n_flags += 1
+						elseif grid[idx].mine then
+							exploded_mine_row, exploded_mine_col = row, col
+						 	has_unf_mine = true
+						end
+					end)
+					
+					if n_flags == grid[idx].neigh then -- uncover all unflagged neighbours
+						if has_unf_mine then
+							for_neigh(row, col, function (idx, row, col)
+								if not grid[idx].flag then uncover(row, col, 1) end end)
+							explode()
+						else
+							for_neigh(row, col, function (idx, row, col)
+								if not grid[idx].flag then uncover(row, col) end end)
+						end
+					end	
+				end
+			elseif mouse_b == 2 and mouse_b_old != 2 then
+				if grid[idx].cover then
+					if grid[idx].flag then
+						grid[idx].flag = false
+						flags_set -= 1
+					else
+						grid[idx].flag = true
+						flags_set += 1
+					end
+				end
+			end
+		end	
+		if timer_running then
+			ticks+=1
+		end
+	end
+	mouse_b_old = mouse_b
+end
+
+function uncover(row, col, depth)
+	local idx = row*cols+col+1
+	if row < 0 or row >= rows or col < 0 or col >= cols or grid[idx].cover == false then
+		return
+	end
+	grid[idx].cover = false
+	if grid[idx].flag then
+		grid[idx].flag = false
+		flags_set -= 1
+	end
+	cells_uncovered += 1
+	
+	if depth != nil then
+		depth -= 1
+	end
+	if depth == 0 then
+		return
+	end
+	
+
+	if grid[idx].neigh == 0 then
+		for_neigh(row, col, function (idx, row, col) uncover(row, col, depth) end)
+	end
+end
+
+grid_start_x, grid_start_y = 12, 55
+
+function _draw()
+	cls(6)
+	
+	function seven_seg(x, y, n_digits, number)
+		local sign = false
+		if number < 0 then
+			number = -number
+			sign = true
+		end
+		
+		local segw, segh = 13, 23
+		for i=1,n_digits do
+			spr(16 + number%10, x+segw*(n_digits-i), y)
+			number \= 10
+		end
+		
+		if sign then
+			rectfill(x, y, x+segw-1, y+segh-1, 32)
+			spr(26, x, y) 
+		end
+	end
+	
+	-- outer emboss
+	embossfill(0, 0, width, height, 6, 7, 5, 3)	
+	-- upper ui emboss
+	embossfill(9,	 9, width-9-1, 9+37-1, 6,5,7,2)
+	-- smiley button
+	if smiley_pressed then
+		embossfill(bx1, 15, bx2, 15+w-1, 6, 5, 5,1)
+		line(bx1+1, 15+1, bx2, 15+1, 5)
+		line(bx1+1, 15+1, bx1+1, 15+w-1, 5)
+	else
+		embossfill(bx1, 15, bx2, 15+w-1, 6, 7, 5,3)
+		line(bx1, 15, bx2, 15, 5)
+		line(bx1, 15, bx1, 15+w-1, 5)
+	end
+	-- left 7 segment
+	embossfill(16, 15, 16+41-1, 15+25-1, 6, 5, 7, 1)
+	rectfill(16+1, 15+1, 16+41-2, 15+25-2, 32)
+	seven_seg(16+1, 15+1, 3, n_mines-flags_set)
+	-- right 7 segment
+--	assert( == 93)width-2-16
+	embossfill(width-2-41-16, 15, width-2-16-1, 15+25-1, 6, 5, 7, 1)
+	rectfill(width-2-41-16+1, 15+1, width-2-16-2, 15+25-2, 32)
+	
+	if ticks\60 <= 999 then
+		seven_seg(width-2-41-16+1, 15+1, 3, ticks\60)
+	else
+		seven_seg(width-2-41-16+1, 15+1, 3, 999)
+	end
+	
+	-- nil, self, neigh
+	local fake_mode = nil
+	local fake_row, fake_column = 0, 0
+	-- smiley
+	local sm_sprite = 12
+	if mouse_b == 1 and game_state == "playing" and
+	   mouse_x >= grid_start_x and mouse_x < grid_start_x+cols*cell_extent and
+	   mouse_y >= grid_start_y and mouse_y < grid_start_y+rows*cell_extent then
+		sm_sprite = 14
+		-- fake uncover
+		local row, col = (mouse_y-grid_start_y)\cell_extent, (mouse_x-grid_start_x)\cell_extent
+		if grid[row*cols+col+1].cover then
+			fake_mode = "self"
+		else
+			fake_mode = "neigh"
+		end
+		fake_row, fake_col = row, col
+	elseif game_state == "lost" then
+		sm_sprite = 11
+	elseif game_state == "won" then
+		sm_sprite = 13
+	end
+	
+	if smiley_pressed then
+		spr(12, bx1+6, 21)
+	else
+		spr(sm_sprite, bx1+5, 20)
+	end
+
+	for i=1,rows*cols do
+		local col, row = (i-1)%cols, (i-1)\cols
+		local x1, y1 = grid_start_x+col*cell_extent, grid_start_y+row*cell_extent
+		local x2, y2 = grid_start_x+(col+1)*cell_extent, grid_start_y+(row+1)*cell_extent
+		
+		local fake_uncover = ((fake_mode == "self" and row==fake_row and col==fake_col)
+							  or (fake_mode == "neigh" and abs(row-fake_row)<2 and
+								   abs(col-fake_col)<2)) and not grid[i].flag
+		-- draw cover
+		if grid[i].cover and not fake_uncover then
+			embossfill(x1, y1, x2-1, y2-1, 6, 7, 5, 2)
+		else -- or gridline
+			rect(x1, y1, x2, y2, 5)
+		end
+		
+		-- mark exploded cell in red
+		if game_state == "lost" and exploded_mine_row==row and exploded_mine_col==col then
+			rectfill(x1+1, y1+1, x2-1, y2-1, 8)
+		end
+		
+		if game_state == "lost" then
+			if grid[i].flag then
+				if grid[i].mine then spr(10, x1, y1)
+				else 
+					rect(x1, y1, x2, y2, 5)
+					rectfill(x1+1, y1+1, x2-1, y2-1, 6)
+					spr(27, x1, y1)
+				end
+			elseif grid[i].mine then spr(15, x1, y1) end -- draw mine
+		elseif grid[i].flag then spr(10, x1, y1) end -- draw flag
+		if grid[i].neigh != 0 and not grid[i].cover and not grid[i].mine then -- draw neighbour count
+			spr(grid[i].neigh, x1, y1)
+		end
+		
+	end
+	
+	embossfill(grid_start_x-3,
+				 grid_start_y-3,
+				 cols*cell_extent+5+grid_start_x-3,
+				 rows*cell_extent+5+grid_start_y-3,
+				 nil,5,7,3)	
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTE5IDIyOjE4OjU3Iixtb2RpZmllZD0iMjAyNC0x
+MS0yNSAxNzowMjozNCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzUwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
+bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
+bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]
